@@ -1,5 +1,14 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Mycomponent from './Example/mycomponent.js'
+
+/**
+ * 
+ * @returns 
+ * 
+ * 
+ * 
+ */
 
 function App() {
   return (
@@ -15,8 +24,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          {/* Learn React */}
         </a>
+        <Mycomponent />
+
       </header>
     </div>
   );
